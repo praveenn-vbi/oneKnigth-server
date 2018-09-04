@@ -1,0 +1,92 @@
+[
+    {
+        "_id": "5b8d64cab2299429b8e613ae",
+        "dashboardId": "VBX_DASHBOARD_470074_0",
+        "viewName": "View 1",
+        "os": "Windows",
+        "browser": "Chrome",
+        "device": "Computer",
+        "createdOn": "2018-09-03T16:43:54.125Z"
+    },
+    {
+        "_id": "5b8d6b50b2299429b8e613af",
+        "dashboardId": "VBX_DASHBOARD_470074_0",
+        "viewName": "View 2",
+        "os": "Windows",
+        "browser": "Chrome",
+        "device": "Computer",
+        "createdOn": "2018-09-03T17:11:44.182Z"
+    },
+    {
+        "_id": "5b8d6b59b2299429b8e613b0",
+        "dashboardId": "VBX_DASHBOARD_470074_0",
+        "viewName": "View 3",
+        "os": "Windows",
+        "browser": "Chrome",
+        "device": "Computer",
+        "createdOn": "2018-09-03T17:11:53.947Z"
+    },
+    {
+        "_id": "5b8d6b6fb2299429b8e613b1",
+        "dashboardId": "VBX_DASHBOARD_470074_0",
+        "viewName": "View 3",
+        "os": "Linux",
+        "browser": "Chrome",
+        "device": "Computer",
+        "createdOn": "2018-09-03T17:12:15.517Z"
+    },
+    {
+        "_id": "5b8d6b73b2299429b8e613b2",
+        "dashboardId": "VBX_DASHBOARD_470074_0",
+        "viewName": "View 2",
+        "os": "Linux",
+        "browser": "Chrome",
+        "device": "Computer",
+        "createdOn": "2018-09-03T17:12:19.218Z"
+    },
+    {
+        "_id": "5b8d6b7eb2299429b8e613b3",
+        "dashboardId": "VBX_DASHBOARD_470074_0",
+        "viewName": "View 2",
+        "os": "Linux",
+        "browser": "FireFox",
+        "device": "Computer",
+        "createdOn": "2018-09-03T17:12:30.520Z"
+    },
+    {
+        "_id": "5b8d6b84b2299429b8e613b4",
+        "dashboardId": "VBX_DASHBOARD_470074_0",
+        "viewName": "View 1",
+        "os": "Linux",
+        "browser": "FireFox",
+        "device": "Computer",
+        "createdOn": "2018-09-03T17:12:36.972Z"
+    },
+    {
+        "_id": "5b8d6b8eb2299429b8e613b5",
+        "dashboardId": "VBX_DASHBOARD_470074_0",
+        "viewName": "View 1",
+        "os": "Linux",
+        "browser": "FireFox",
+        "device": "Mobile",
+        "createdOn": "2018-09-03T17:12:46.059Z"
+    },
+    {
+        "_id": "5b8d6ba6b2299429b8e613b6",
+        "dashboardId": "VBX_DASHBOARD_470074_0",
+        "viewName": "View 2",
+        "os": "iOs",
+        "browser": "Safari",
+        "device": "Mobile",
+        "createdOn": "2018-09-03T17:13:10.455Z"
+    },
+    {
+        "_id": "5b8d6bb1b2299429b8e613b7",
+        "dashboardId": "VBX_DASHBOARD_470074_0",
+        "viewName": "View 3",
+        "os": "iOs",
+        "browser": "Safari",
+        "device": "Mobile",
+        "createdOn": "2018-09-03T17:13:21.480Z"
+    }
+]

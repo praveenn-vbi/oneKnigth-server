@@ -1,4 +1,5 @@
 import * as Dashboard from './controllers/dashboard'
+import * as DashboardStats from './controllers/dashboard_stats'
 import * as Joi from 'Joi'
 const routes = [
     {
@@ -32,7 +33,12 @@ const routes = [
     },{
         method:'GET',
         path:'/dashboardStats/{id}',
-        handler:Dashboard.getStats,
+        handler:DashboardStats.getCompleteStats,
+    },
+    {
+        method:'GET',
+        path:'/dashboardStats/{id}/{count}',
+        handler:DashboardStats.getRecentStats,
     }
 ];
 export default routes;

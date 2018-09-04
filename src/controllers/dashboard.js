@@ -1,6 +1,7 @@
 
 import * as Boom from 'boom'
 import * as Dashboard from '../models/dashboard'
+import * as DashboardViews from '../models/dashboard_views'
 
 const errorCallback = (err) =>{
     console.log(err);
@@ -14,17 +15,10 @@ const createDashboard  = (request,h) =>{
 }
 
 const newVisit = (request,h) =>{
-    return Dashboard.insertNewVisit(request.payload)
+    return DashboardViews.insertNewVisit(request.payload)
     .then((response) =>{
         return response.result;
     }).catch(errorCallback);
 }
 
-const getStats =(request,h) =>{
-    return Dashboard.getStats(request.params.id)
-    .then((response)=>{
-        return response.toArray();
-    }).catch(errorCallback);
-}
-
-export {createDashboard,newVisit,getStats};
+export {createDashboard,newVisit};

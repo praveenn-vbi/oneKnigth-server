@@ -1,5 +1,4 @@
-import {dashboardVisits,dashboards} from '../collections';
-import * as UID from 'uuid/v1';
+import {dashboards} from '../collections';
 import {getRandomNumber} from '../utils'
 const createDashboard = (dashboardName) =>{
     return dashboards.then((dashboardsCol)=>{
@@ -11,16 +10,4 @@ const createDashboard = (dashboardName) =>{
     });
 }
 
-const insertNewVisit = (payload) =>{
-    return dashboardVisits.then(dashboardVisitsCol => {
-        payload.createdOn = new Date();
-        return dashboardVisitsCol.insertOne(payload);
-    });
-}
-
-const getStats = (dashboardId) =>{
-    return dashboardVisits.then(dashboardVisitsCol =>{
-        return dashboardVisitsCol.find({dashboardId})
-    });
-}
-export {createDashboard,insertNewVisit,getStats};
+export {createDashboard};

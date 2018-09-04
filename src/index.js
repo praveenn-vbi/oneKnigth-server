@@ -4,7 +4,8 @@ import * as Hapi from 'hapi'
 
 const server=Hapi.server({
     host:'localhost',
-    port:8000
+    port:8000,
+    routes : {cors: true}
 });
 server.route(routes);
 
